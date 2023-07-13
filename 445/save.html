@@ -1,0 +1,704 @@
+<p></p>
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet" />
+<style type="text/css">/* @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i'); */
+  .sectionContain {
+    margin: 0 auto 30px auto;
+  }
+
+  #header-breadcrumb-container h1 {
+    display: none !important;
+  }
+
+  #main-content h1 {
+    border-bottom: none !important;
+    padding: 0 !important;
+  }
+
+  #main-content h2 {
+    font-size: 23px;
+  }
+
+  .epHeroBG {
+    height: 350px;
+    background-image: url(https://grainger-prod.adobecqms.net/content/dam/grainger/gus/en/public/digital-tactics/gcom/homepage/W-ALN3563_EmPrep_WinterPrep_ColdStress_HPC_1380x350.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+
+  [class*="markIntro-"] {
+    max-width: 500px;
+    text-align: left;
+    padding: 5px 0 0 40px;
+  }
+
+  [class*="markIntro-"] p {
+    font-size: 1em;
+    line-height: 1.3em;
+    margin-bottom: 10px;
+  }
+
+  [class*="markIntro-"] div {
+    width: 80px;
+    height: 2px;
+    background-color: #72777d;
+    margin-bottom: 10px;
+  }
+
+  .markIntro-1 img {
+    width: 35px;
+    vertical-align: baseline;
+    padding-top: 6px !important;
+  }
+
+  [class*="markProductHead"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #29333b;
+    margin-top: 30px;
+  }
+
+  [class*="markProductHead"] p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 0.8em;
+    line-height: 6px;
+  }
+
+  [class*="markProductHead"] h2 {
+    margin: 0;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 24px;
+  }
+
+  .bordrBtmSection {
+    width: 100%;
+    height: 1px;
+    background-color: #d8d8d8;
+    margin: 5px 0;
+    float: left;
+  }
+
+  .bordrBtmSectiona,
+  .bordrBtmSectionb {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    margin: 5px 0;
+    float: left;
+  }
+
+  .bordrRightSection {
+    border-right: 1px solid #d8d8d8;
+  }
+
+  .bordrRightSectiona {
+    border-right: 1px solid #d8d8d8;
+  }
+
+  .gca-item-hp img {
+    width: 90px;
+    float: left;
+    margin: 0 5px 8px 10px
+  }
+
+  @media (max-width: 991px) {
+    .col-md-3 {
+      -ms-flex: none;
+      flex: none;
+      max-width: 50%;
+    }
+
+    .bordrRightSectiona {
+      border-right: none;
+    }
+
+    .bordrBtmSectiona {
+      background-color: #d8d8d8;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .col-md-3 {
+      -ms-flex: none;
+      flex: none;
+      max-width: 100%;
+    }
+
+    .bordrRightSection {
+      border-right: none;
+    }
+
+    .bordrBtmSectionb {
+      background-color: #d8d8d8;
+    }
+  }
+
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .container {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .gca-item-hp.active img {
+    animation-name: active-in-img;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+  }
+
+  .gca-grid-homepage {
+    margin: 15px 0 25px;
+  }
+
+  .gca-category-title-hp {
+    padding-top: 35px;
+    font-size: 12.5px;
+    color: #00739e;
+    font-family: inherit;
+    line-height: 18px;
+    margin: 0px 10px;
+  }
+
+  .borderTabl {
+    border: 1px solid #d8d8d8;
+  }
+
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1300px;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width:1199px) {
+    .container {
+      max-width: 1172px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      max-width: 850px;
+    }
+    .sectionBG-TipstoPrepare {
+      padding: 10px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .tipsPadLeft {
+      padding-left: 0 !important;
+    }
+    .tipsPadTop {
+      padding-top: 20px;
+    }
+  }
+  @media (max-width: 991px) {
+    #main-content h2 {
+      font-size: 19px;
+    }
+  }
+
+  .sectionBG-TipstoPrepare {
+    background-color: #eee;
+    padding: 15px;
+    margin-top: 45px
+  }
+
+  .sectionBG-TipstoPrepare p {
+    margin-bottom: 10px;
+    padding: 20px 30px;
+    border: 1px solid #d8d8d8;
+    background-color: #ffffff;
+    line-height: 21px;
+    font-size: 15px;
+    font-family: inherit;
+    color: black;
+  }
+
+  .tipBox {
+    padding: 10px 0 !important;
+  }
+</style>
+<div class="sectionContain container epHeroBG">
+<div id="markRow-0">
+<div class="col-xs-12" style="padding-top: 34px;margin-top: 10px;padding-left:40px;font-size: 13px;font-family: Arial, Helvetica, sans-serif;
+    color: #494747;"><a href="/en/" style="color: #494747; text-decoration: none; font-size:12px; font-family:Arial, Helvetica, sans-serif; ">Home </a> | <a href="/en/content/emergency-preparedness" style="color: #494747; text-decoration: none; font-size:12px; font-family:Arial, Helvetica, sans-serif; ">Emergency Solutions </a> | <strong style="font-weight: bold; font-size:12px; font-family:Arial, Helvetica, sans-serif; ">Extreme Cold </strong></div>
+
+<div class="markIntro-1">
+<h1><img alt="" src="https://static.grainger.com/images/WinterStorm-2x.png" /> Winter Preparedness</h1>
+
+<div></div>
+
+<p>Freezing temperatures and winter storms can have serious consequences for the well-being of both your business and employees. Preparation is a vital part of minimizing the impact of cold-weather conditions.</p>
+<a container="" download="" href="/medias/sys_master/root/he9/hed/9113650888734/Updated-Winter-Preparedness-Line-Card-EN.pdf" sectioncontain="" style="color:#212529;&gt;Download product listing&lt;/a&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;!--{cke_protected}%0A--&gt;&lt;div class=">
+</a><div class="markProductHead"><a container="" download="" href="/medias/sys_master/root/he9/hed/9113650888734/Updated-Winter-Preparedness-Line-Card-EN.pdf" sectioncontain="" style="color:#212529;&gt;Download product listing&lt;/a&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;!--{cke_protected}%0A--&gt;&lt;div class=">
+</a><p><a container="" download="" href="/medias/sys_master/root/he9/hed/9113650888734/Updated-Winter-Preparedness-Line-Card-EN.pdf" sectioncontain="" style="color:#212529;&gt;Download product listing&lt;/a&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;!--{cke_protected}%0A--&gt;&lt;div class=">Products to</a></p><a container="" download="" href="/medias/sys_master/root/he9/hed/9113650888734/Updated-Winter-Preparedness-Line-Card-EN.pdf" sectioncontain="" style="color:#212529;&gt;Download product listing&lt;/a&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;!--{cke_protected}%0A--&gt;&lt;div class=">
+
+</a><h2><a container="" download="" href="/medias/sys_master/root/he9/hed/9113650888734/Updated-Winter-Preparedness-Line-Card-EN.pdf" sectioncontain="" style="color:#212529;&gt;Download product listing&lt;/a&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;!--{cke_protected}%0A--&gt;&lt;div class=">Prepare</a></h2><a container="" download="" href="/medias/sys_master/root/he9/hed/9113650888734/Updated-Winter-Preparedness-Line-Card-EN.pdf" sectioncontain="" style="color:#212529;&gt;Download product listing&lt;/a&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;!--{cke_protected}%0A--&gt;&lt;div class=">
+</a></div><a container="" download="" href="/medias/sys_master/root/he9/hed/9113650888734/Updated-Winter-Preparedness-Line-Card-EN.pdf" sectioncontain="" style="color:#212529;&gt;Download product listing&lt;/a&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;!--{cke_protected}%0A--&gt;&lt;div class=">
+
+</a><div class="borderTabl"><a container="" download="" href="/medias/sys_master/root/he9/hed/9113650888734/Updated-Winter-Preparedness-Line-Card-EN.pdf" sectioncontain="" style="color:#212529;&gt;Download product listing&lt;/a&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;!--{cke_protected}%0A--&gt;&lt;div class=">
+</a><div class="row"><a container="" download="" href="/medias/sys_master/root/he9/hed/9113650888734/Updated-Winter-Preparedness-Line-Card-EN.pdf" sectioncontain="" style="color:#212529;&gt;Download product listing&lt;/a&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;!--{cke_protected}%0A--&gt;&lt;div class=">
+</a><div class="col-md-3 col-sm-6 col-xs-12  col-sm-6 col-xs-12 bordrRightSection"><a container="" download="" href="/medias/sys_master/root/he9/hed/9113650888734/Updated-Winter-Preparedness-Line-Card-EN.pdf" sectioncontain="" style="color:#212529;&gt;Download product listing&lt;/a&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;!--{cke_protected}%0A--&gt;&lt;div class=">
+</a><div class="gca-item-hp"><a container="" download="" href="/medias/sys_master/root/he9/hed/9113650888734/Updated-Winter-Preparedness-Line-Card-EN.pdf" sectioncontain="" style="color:#212529;&gt;Download product listing&lt;/a&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;/div&gt;&lt;!--{cke_protected}%0A--&gt;&lt;!--{cke_protected}%0A--&gt;&lt;div class=">
+</a><div class="gca-grid-homepage"><a href="/en/category/Antifreeze-and-Coolants/Automotive-Chemicals/c/27825/?aType=brc"><img alt="Antifreeze" src="https://static.grainger.com/rp/s/is/image/Grainger/14CK97_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Antifreeze-and-Coolants/Automotive-Chemicals/c/27825/?aType=brc">Antifreeze</a></div>
+<a href="/en/category/Antifreeze-and-Coolants/Automotive-Chemicals/c/27825/?aType=brc"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSectiona">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Anti-Slip-Tapes/Tapes/c/5672/?aType=brc"><img alt="Anti-Slip Tapes" src="https://static.grainger.com/rp/s/is/image/Grainger/448K75_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Anti-Slip-Tapes/Tapes/c/5672/?aType=brc">Anti-Slip Tapes</a></div>
+<a href="/en/category/Anti-Slip-Tapes/Tapes/c/5672/?aType=brc"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSection">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Boot-Liners/Footwear-and-Footwear-Accessories/c/26517?filterTemplate=Visual"><img alt="Boot Liners" src="https://static.grainger.com/rp/s/is/image/Grainger/30LV96_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Boot-Liners/Footwear-and-Footwear-Accessories/c/26517?filterTemplate=Visual">Boot Liners</a></div>
+<a href="/en/category/Boot-Liners/Footwear-and-Footwear-Accessories/c/26517?filterTemplate=Visual"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 ">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Safety/Gloves-and-Hand-Protection/Cold-Condition-Gloves/c/9950?q=Cold-Condition+Gloves&amp;type=ts&amp;isWildCard=false&amp;isIgnMinMatchFilter=false"><img alt="Cold-Condition Gloves" src="https://static.grainger.com/rp/s/is/image/Grainger/10CE84_AS03?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Safety/Gloves-and-Hand-Protection/Cold-Condition-Gloves/c/9950?q=Cold-Condition+Gloves&amp;type=ts&amp;isWildCard=false&amp;isIgnMinMatchFilter=false">Cold-Condition Gloves</a></div>
+<a href="/en/category/Safety/Gloves-and-Hand-Protection/Cold-Condition-Gloves/c/9950?q=Cold-Condition+Gloves&amp;type=ts&amp;isWildCard=false&amp;isIgnMinMatchFilter=false"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSection">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Drop-and-Broadcast-Spreaders/Sprayers-and-Spreaders/c/4760?filterTemplate=Visual"><img alt="Drop and Broadcast Spreaders" src="https://static.grainger.com/rp/s/is/image/Grainger/12MH62_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Drop-and-Broadcast-Spreaders/Sprayers-and-Spreaders/c/4760?filterTemplate=Visual">Drop and Broadcast Spreaders</a></div>
+<a href="/en/category/Drop-and-Broadcast-Spreaders/Sprayers-and-Spreaders/c/4760?filterTemplate=Visual"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSectiona">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Electric%20Heaters%20and%20Accessories/HVAC%20and%20Refrigeration/c/27735?nlsgt=true&amp;uq=Electric+Heaters+and+Accessories&amp;filterSize=0&amp;ntype=1&amp;searchBar=true&amp;nls=NLSAA_5-1&amp;code=90.0"><img alt="Electric Heaters and Accessories" src="https://static.grainger.com/rp/s/is/image/Grainger/15JR64_AS01?$xlswatch$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Electric%20Heaters%20and%20Accessories/HVAC%20and%20Refrigeration/c/27735?nlsgt=true&amp;uq=Electric+Heaters+and+Accessories&amp;filterSize=0&amp;ntype=1&amp;searchBar=true&amp;nls=NLSAA_5-1&amp;code=90.0">Electric Heaters and Accessoriess</a></div>
+<a href="/en/category/Electric%20Heaters%20and%20Accessories/HVAC%20and%20Refrigeration/c/27735?nlsgt=true&amp;uq=Electric+Heaters+and+Accessories&amp;filterSize=0&amp;ntype=1&amp;searchBar=true&amp;nls=NLSAA_5-1&amp;code=90.0"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSection">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Electrical-Generators/Outdoor-Equipment/c/2125?filterTemplate=Visual"><img alt="Electrical Generators" src="https://static.grainger.com/rp/s/is/image/Grainger/2ZMF5_AS01?$xlswatch$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Electrical-Generators/Outdoor-Equipment/c/2125?filterTemplate=Visual">Electrical Generators</a></div>
+<a href="/en/category/Electrical-Generators/Outdoor-Equipment/c/2125?filterTemplate=Visual"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Foot-and-Hand-Warmers/Workwear/c/26554?filterTemplate=Visual"><img alt="Foot and Hand Warmers" src="https://static.grainger.com/rp/s/is/image/Grainger/32HD75_AW01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Foot-and-Hand-Warmers/Workwear/c/26554?filterTemplate=Visual">Foot and Hand Warmers</a></div>
+<a href="/en/category/Foot-and-Hand-Warmers/Workwear/c/26554?filterTemplate=Visual"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSection">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Ice-Melting-Compounds/Snow-and-Ice-Removal/c/26858?filterTemplate=Visual"><img alt="Ice Melting Compounds" src="https://static.grainger.com/rp/s/is/image/Grainger/46N706_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Ice-Melting-Compounds/Snow-and-Ice-Removal/c/26858?filterTemplate=Visual">Ice Melting Compounds</a></div>
+<a href="/en/category/Ice-Melting-Compounds/Snow-and-Ice-Removal/c/26858?filterTemplate=Visual"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSectiona">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Safety/Workwear/Jackets-and-Coats/c/5574?q=Jackets+%26+Coats&amp;type=ts&amp;isWildCard=false&amp;isIgnMinMatchFilter=false"><img alt="Jackets &amp; Coats" src="https://static.grainger.com/rp/s/is/image/Grainger/ALMVC50JO2XL_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Safety/Workwear/Jackets-and-Coats/c/5574?q=Jackets+%26+Coats&amp;type=ts&amp;isWildCard=false&amp;isIgnMinMatchFilter=false">Jackets & Coats</a></div>
+<a href="/en/category/Safety/Workwear/Jackets-and-Coats/c/5574?q=Jackets+%26+Coats&amp;type=ts&amp;isWildCard=false&amp;isIgnMinMatchFilter=false"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSection">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Washer-Fluid-and-Windshield-Treatments/Automotive-Chemicals/c/27835/?aType=brc"><img alt="Lock De-Icer" src="https://static.grainger.com/rp/s/is/image/Grainger/41YH85_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Washer-Fluid-and-Windshield-Treatments/Automotive-Chemicals/c/27835/?aType=brc">Lock De-Icer</a></div>
+<a href="/en/category/Washer-Fluid-and-Windshield-Treatments/Automotive-Chemicals/c/27835/?aType=brc"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 ">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Snow-Blowers/Snow-and-Ice-Removal/c/11786?filterTemplate=Visual"><img alt="Snow Blowers" src="https://static.grainger.com/rp/s/is/image/Grainger/49XX60_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Snow-Blowers/Snow-and-Ice-Removal/c/11786?filterTemplate=Visual">Snow Blowers</a></div>
+<a href="/en/category/Snow-Blowers/Snow-and-Ice-Removal/c/11786?filterTemplate=Visual"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSection">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Snow-Shovels-and-Snow-Pushers/Snow-and-Ice-Removal/c/4758?filterTemplate=Visual"><img alt="Snow Shovels and Snow Pushers" src="https://static.grainger.com/rp/s/is/image/Grainger/4W604_AW47?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Snow-Shovels-and-Snow-Pushers/Snow-and-Ice-Removal/c/4758?filterTemplate=Visual">Snow Shovels and Snow Pushers</a></div>
+<a href="/en/category/Snow-Shovels-and-Snow-Pushers/Snow-and-Ice-Removal/c/4758?filterTemplate=Visual"> </a></div>
+</div>
+
+<div class="bordrBtmSectiona"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSectiona">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Thermal-Underwear/Workwear/c/27225?filterTemplate=Visual"><img alt="Thermal Underwear" src="https://static.grainger.com/rp/s/is/image/Grainger/HLH75043-590-2XL_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Thermal-Underwear/Workwear/c/27225?filterTemplate=Visual">Thermal Underwear</a></div>
+<a href="/en/category/Thermal-Underwear/Workwear/c/27225?filterTemplate=Visual"> </a></div>
+</div>
+
+<div class="bordrBtmSectiona"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSection">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Socks/Footwear-and-Footwear-Accessories/c/26510?filterType=102079_ATTR&amp;filterName=Item&amp;filterValue=Winter+Sock&amp;isWildCard=false&amp;q=%3AtopSeller%3A102079_ATTR%3AOutdoor%2BSocks%3A102079_ATTR%3AThermal%2BIndustrial%2BSocks%3A102079_ATTR%3AWinter%2BSock&amp;text=&amp;remove_token=&amp;type=&amp;cptype=category#"><img alt="Winter &amp; Thermal Socks" src="https://static.grainger.com/rp/s/is/image/Grainger/11C578_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Socks/Footwear-and-Footwear-Accessories/c/26510?filterType=102079_ATTR&amp;filterName=Item&amp;filterValue=Winter+Sock&amp;isWildCard=false&amp;q=%3AtopSeller%3A102079_ATTR%3AOutdoor%2BSocks%3A102079_ATTR%3AThermal%2BIndustrial%2BSocks%3A102079_ATTR%3AWinter%2BSock&amp;text=&amp;remove_token=&amp;type=&amp;cptype=category#">Winter & Thermal Socks</a></div>
+<a href="/en/category/Socks/Footwear-and-Footwear-Accessories/c/26510?filterType=102079_ATTR&amp;filterName=Item&amp;filterValue=Winter+Sock&amp;isWildCard=false&amp;q=%3AtopSeller%3A102079_ATTR%3AOutdoor%2BSocks%3A102079_ATTR%3AThermal%2BIndustrial%2BSocks%3A102079_ATTR%3AWinter%2BSock&amp;text=&amp;remove_token=&amp;type=&amp;cptype=category#"> </a></div>
+</div>
+
+<div class="bordrBtmSectionb"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 ">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Winter-Boots/Footwear-and-Footwear-Accessories/c/26514?filterTemplate=Visual"><img alt="Winter Boots" src="https://static.grainger.com/rp/s/is/image/Grainger/ALMP230BB10_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Winter-Boots/Footwear-and-Footwear-Accessories/c/26514?filterTemplate=Visual">Winter Boots</a></div>
+<a href="/en/category/Winter-Boots/Footwear-and-Footwear-Accessories/c/26514?filterTemplate=Visual"> </a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="sectionContain container">
+<div class="markProductHead">
+<p>Products to</p>
+
+<h2>Respond & Recover</h2>
+</div>
+
+<div class="borderTabl">
+<div class="row">
+<div class="col-md-3 col-sm-6 col-xs-12  col-sm-6 col-xs-12 bordrRightSection">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Automotive-Battery-Chargers-and-Boosters/Automotive-Maintenance-Tools/c/3278/?aType=brc"><img alt="Automotive Battery Chargers and Boosters" src="https://static.grainger.com/rp/s/is/image/Grainger/36TX82_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Automotive-Battery-Chargers-and-Boosters/Automotive-Maintenance-Tools/c/3278/?aType=brc">Automotive Battery Chargers and Boosters</a></div>
+<a href="/en/category/Automotive-Battery-Chargers-and-Boosters/Automotive-Maintenance-Tools/c/3278/?aType=brc"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSectiona">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Fuel-and-Gas-Cans/Safety-Storage/c/27182/?aType=brc"><img alt="Fuel and Gas Cans" src="https://static.grainger.com/rp/s/is/image/Grainger/12KF53_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Fuel-and-Gas-Cans/Safety-Storage/c/27182/?aType=brc">Fuel and Gas Cans</a></div>
+<a href="/en/category/Fuel-and-Gas-Cans/Safety-Storage/c/27182/?aType=brc"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSection">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Snow-Accessories/Automotive-Maintenance-Tools/c/13728/?aType=brc"><img alt="Snow Accessories" src="https://static.grainger.com/rp/s/is/image/Grainger/48TC59_AS02?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Snow-Accessories/Automotive-Maintenance-Tools/c/13728/?aType=brc">Snow Accessories</a></div>
+<a href="/en/category/Snow-Accessories/Automotive-Maintenance-Tools/c/13728/?aType=brc"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 ">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Jumper-Cables/Automotive-Maintenance-Tools/c/3323/?aType=brc"><img alt="Jumper Cables" src="https://static.grainger.com/rp/s/is/image/Grainger/32CV36_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Jumper-Cables/Automotive-Maintenance-Tools/c/3323/?aType=brc">Jumper Cables</a></div>
+<a href="/en/category/Jumper-Cables/Automotive-Maintenance-Tools/c/3323/?aType=brc"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSection">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Tire-Chains/Tire-and-Wheel/c/21625/?aType=brc"><img alt="Tire Chains" src="https://static.grainger.com/rp/s/is/image/Grainger/11LX44_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Tire-Chains/Tire-and-Wheel/c/21625/?aType=brc">Tire Chains</a></div>
+<a href="/en/category/Tire-Chains/Tire-and-Wheel/c/21625/?aType=brc"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSectiona">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Footwear-Traction-Devices/Footwear-and-Footwear-Accessories/c/26209/?aType=brc"><img alt="Footwear Traction Devices" src="https://static.grainger.com/rp/s/is/image/Grainger/JDSJD310L_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Footwear-Traction-Devices/Footwear-and-Footwear-Accessories/c/26209/?aType=brc">Footwear Traction Devices</a></div>
+<a href="/en/category/Footwear-Traction-Devices/Footwear-and-Footwear-Accessories/c/26209/?aType=brc"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSection">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Boot-Dryers/Footwear-and-Footwear-Accessories/c/26518/?aType=brc"><img alt="Boot Dryer" src="https://static.grainger.com/rp/s/is/image/Grainger/41CT67_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Boot-Dryers/Footwear-and-Footwear-Accessories/c/26518/?aType=brc">Boot Dryer</a></div>
+<a href="/en/category/Boot-Dryers/Footwear-and-Footwear-Accessories/c/26518/?aType=brc"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Entrance-Mats/Matting/c/24705/?aType=brc"><img alt="Entrance Mats" src="https://static.grainger.com/rp/s/is/image/Grainger/6PY86_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Entrance-Mats/Matting/c/24705/?aType=brc">Entrance Mats</a></div>
+<a href="/en/category/Entrance-Mats/Matting/c/24705/?aType=brc"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSection">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Emergency-Roadside-Kits/Automotive-Mechanical/c/15885/?aType=brc"><img alt="Emergency Roadside Kits" src="https://static.grainger.com/rp/s/is/image/Grainger/1EKU2_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Emergency-Roadside-Kits/Automotive-Mechanical/c/15885/?aType=brc">Emergency Roadside Kits</a></div>
+<a href="/en/category/Emergency-Roadside-Kits/Automotive-Mechanical/c/15885/?aType=brc"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSectiona">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Cold-Weather-Headwear-and-Liners/Workwear/c/7362/?aType=brc"><img alt="Cold Weather Headwear and Liners" src="https://static.grainger.com/rp/s/is/image/Grainger/55JF03_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Cold-Weather-Headwear-and-Liners/Workwear/c/7362/?aType=brc">Cold Weather Headwear and Liners</a></div>
+<a href="/en/category/Cold-Weather-Headwear-and-Liners/Workwear/c/7362/?aType=brc"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSection">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Extension-Cords/Extension-Cords-and-Outlet-Strips/c/3304/?aType=brc"><img alt="Extension Cords" src="https://static.grainger.com/rp/s/is/image/Grainger/4FZZ7_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Extension-Cords/Extension-Cords-and-Outlet-Strips/c/3304/?aType=brc">Extension Cords</a></div>
+<a href="/en/category/Extension-Cords/Extension-Cords-and-Outlet-Strips/c/3304/?aType=brc"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 ">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Traffic-Cones/Traffic-Safety/c/26801/?aType=brc"><img alt="Traffic Cones" src="https://static.grainger.com/rp/s/is/image/Grainger/53WN50_AW01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Traffic-Cones/Traffic-Safety/c/26801/?aType=brc">Traffic Cones</a></div>
+<a href="/en/category/Traffic-Cones/Traffic-Safety/c/26801/?aType=brc"> </a></div>
+</div>
+
+<div class="bordrBtmSection"></div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSection">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Ice-Scrapers-and-Choppers/Snow-and-Ice-Removal/c/4755/?aType=brc"><img alt="Ice Scrapers and Choppers" src="https://static.grainger.com/rp/s/is/image/Grainger/39GA14_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Ice-Scrapers-and-Choppers/Snow-and-Ice-Removal/c/4755/?aType=brc">Ice Scrapers and Choppers</a></div>
+<a href="/en/category/Ice-Scrapers-and-Choppers/Snow-and-Ice-Removal/c/4755/?aType=brc"> </a></div>
+</div>
+
+<div class="bordrBtmSectiona"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSectiona">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Office-and-Facility-Signs/Signs/c/24265/?aType=brc"><img alt="Office and Facility Signs" src="https://static.grainger.com/rp/s/is/image/Grainger/31VE31_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Office-and-Facility-Signs/Signs/c/24265/?aType=brc">Office and Facility Signs</a></div>
+<a href="/en/category/Office-and-Facility-Signs/Signs/c/24265/?aType=brc"> </a></div>
+</div>
+
+<div class="bordrBtmSectiona"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12  bordrRightSection">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Shop-Vacuum-Cleaners/Cleaning-Equipment-and-Vacuum-Cleaners/c/3099"><img alt="Wet/Dry Vacuums" src="https://static.grainger.com/rp/s/is/image/Grainger/KFCNT50-1WD_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Shop-Vacuum-Cleaners/Cleaning-Equipment-and-Vacuum-Cleaners/c/3099">Wet/Dry Vacuums</a></div>
+<a href="/en/category/Shop-Vacuum-Cleaners/Cleaning-Equipment-and-Vacuum-Cleaners/c/3099"> </a></div>
+</div>
+
+<div class="bordrBtmSectionb"></div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 ">
+<div class="gca-item-hp">
+<div class="gca-grid-homepage"><a href="/en/category/Cleaning/Wet-Mops,-Squeegees,-and-Buckets/c/27771?q=Wet+Mops+Squeegees+and+Buckets&amp;type=ts&amp;isWildCard=false&amp;isIgnMinMatchFilter=true"><img alt="Wet Mops Squeegees and Buckets" src="https://static.grainger.com/rp/s/is/image/Grainger/46MW57_AS01?$lgthumb$" /> </a>
+
+<div class="gca-category-title-hp"><a href="/en/category/Cleaning/Wet-Mops,-Squeegees,-and-Buckets/c/27771?q=Wet+Mops+Squeegees+and+Buckets&amp;type=ts&amp;isWildCard=false&amp;isIgnMinMatchFilter=true">Wet Mops Squeegees and Buckets</a></div>
+<a href="/en/category/Cleaning/Wet-Mops,-Squeegees,-and-Buckets/c/27771?q=Wet+Mops+Squeegees+and+Buckets&amp;type=ts&amp;isWildCard=false&amp;isIgnMinMatchFilter=true"> </a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="sectionContain container sectionBG-TipstoPrepare">
+<div class="row">
+<div class="col-md-6 col-sm-12 p-0">
+<h2>TIPS TO PREPARE</h2>
+
+<div class="tipBox">
+<p>Know your areas risk for winter storms and monitor weather reports and warnings of freezing weather and winter storms.</p>
+</div>
+
+<div class="tipBox">
+<p>Prepare your facility with insulation, caulking, weather stripping. Insulate pipes and know how to shut off water valves in case pipes freeze and burst.</p>
+</div>
+
+<div class="tipBox">
+<p>Recognize that extreme winter weather may leave your facility without utilities or other services for an extended period of time.</p>
+</div>
+
+<div class="tipBox">
+<p>Be prepared to evacuate if you lose power or heat</p>
+</div>
+
+<div class="tipBox">
+<p>Equip fleet vehicles with roadside emergency items such as jumper cables, battery jumpers, flashlights, blankets and flares.</p>
+</div>
+
+<div class="tipBox">
+<p>Prepare for potential isolation or sheltering-in-place by storing essential supplies sufficient to support your employees for several days.</p>
+</div>
+
+<div class="tipBox">
+<p>Install and test smoke alarms and carbon monoxide detectors with battery backups.</p>
+</div>
+
+<div class="tipBox">
+<p>Learn the signs of, and basic treatments for, frostbite and hypothermia.</p>
+</div>
+
+<div class="tipBox">
+<p>Consider buying emergency heating equipment, such as a wood- or coal-burning stove or an electric or kerosene heater.</p>
+</div>
+</div>
+
+<div class="col-md-6 col-sm-12 pr-0 tipsPadLeft">
+<h2 class="tipsPadTop">TIPS TO RESPOND AND RECOVER</h2>
+
+<div class="tipBox">
+<p>Know your areas risk for winter storms and monitor weather reports and warnings of freezing weather and winter storms.</p>
+</div>
+
+<div class="tipBox">
+<p>Pay attention to weather reports and warnings of freezing weather and winter storms.</p>
+</div>
+
+<div class="tipBox">
+<p>Prevent slips and falls by clearing snow and ice from walking surfaces and spreading ice melters as quickly as possible after the storm.</p>
+</div>
+
+<div class="tipBox">
+<p>Monitor workers’ physical condition during tasks, especially new workers who may not be used to working in the cold, or workers returning after spending some time away from work</p>
+</div>
+
+<div class="tipBox">
+<p>Avoid carbon monoxide poisoning. Only use generators outdoors.</p>
+</div>
+
+<div class="tipBox">
+<p>Maintain ventilation when using kerosene heaters or gas-powered generators to avoid buildup of toxic fumes.</p>
+</div>
+
+<div class="tipBox">
+<p>If ice or heavy snow has damaged your buildings, make sure they are structurally sound before entering.</p>
+</div>
+</div>
+</div>
+<!--Analytics Code--><script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function () {
+      digitalData.page.pageInfo.contentTitle = "Extreme Cold – Grainger Canada"
+      digitalData.page.pageInfo.pageUID = "Extreme Cold PRR"
+      digitalData.page.pageInfo.pageType = "red pass plus"
+      digitalData.page.pageInfo.pageTemplate = "PRR"
+    });
+  </script><!--#End Analytics Code--></div>
+</div></div>
